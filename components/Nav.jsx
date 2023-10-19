@@ -71,34 +71,3 @@ const Nav = () => {
 
 export default Nav;
 
-// {
-/* <Link href="/">
-          <div className="btn_menu">Home</div>
-        </Link>
-
-        <div
-          className="btn_menu relative"
-          onMouseOver={showMenu}
-          onMouseLeave={closeMenu}
-        >
-          Over ons
-          <div
-            className={
-              `${menu ? "max-h-[150px] opacity-100" : "max-h-0 invisible opacity-0"} 
-                w-full justify-center absolute top-[34px] bg-green-950/20 transition-all duration-500 ease-in-out visible`
-            }
-          >
-            <ul className="w-full flex items-center flex-col flex-around py-2 text-green-950">
-              <li className="py-2">menu item 1</li>
-              <li className="py-2">menu item 2</li>
-              <li className="py-2">menu item 3</li>
-            </ul>
-          </div>
-        </div>
-
-        <a href="#contact">
-          <div className="btn_menu">Contact</div>
-        </a>
-
-        <div className="btn_menu">Agenda</div> */
-// }
